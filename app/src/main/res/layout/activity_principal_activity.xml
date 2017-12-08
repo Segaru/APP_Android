@@ -6,4 +6,39 @@
     android:layout_height="match_parent"
     tools:context="br.edu.iff.pooa20172.projetoandroidsi.principal_activity">
 
+    <ImageView
+        android:id="@+id/id_briofitas"
+        android:layout_width="180dp"
+        android:layout_height="178dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icone_briofitas"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:id="@+id/id_pteridofitas"
+        android:layout_width="190dp"
+        android:layout_height="178dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icone_pteridofitas"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <ImageView
+        android:id="@+id/id_angioespermas"
+        android:layout_width="181dp"
+        android:layout_height="175dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icone_angiospermas"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <ImageView
+        android:id="@+id/id_gimnosperma"
+        android:layout_width="190dp"
+        android:layout_height="174dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/icone_gimnospermas"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="252dp" />
 </android.support.constraint.ConstraintLayout>
